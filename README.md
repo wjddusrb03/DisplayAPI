@@ -8,20 +8,19 @@ A developer-friendly framework for creating and managing Display entities (TextD
 
 ---
 
-## Why DisplayAPI?
+## Features
 
-| Feature | DisplayAPI | DecentHolograms | FancyHolograms | HologramLib |
-|---------|-----------|-----------------|----------------|-------------|
-| Display Entity based | Yes | No (ArmorStand) | Yes | Yes |
-| Zero dependencies | Yes | No | No | PacketEvents |
-| Animation engine | Yes (12 easings) | No | Limited | No |
-| Click detection | Yes | No | No | No |
-| Entity follow | Yes | No | No | No |
-| Per-player visibility | Yes | Yes | Yes | Yes |
-| Persistence | Yes (YAML) | Yes | Yes | No |
-| Builder pattern API | Yes | No | No | Partial |
-| PlaceholderAPI | Yes | Yes | Yes | No |
-| Open source (MIT) | Yes | Yes | Yes | Yes |
+- **Fluent Builder API** — Create text, block, and item displays in one line with intuitive chaining
+- **Animation Engine** — 8 preset animations (pulse, spin, bounce, float, fade, shake...) + custom keyframes with 12 easing functions
+- **Click Detection** — Pair displays with Interaction entities for left/right click handling
+- **Entity Following** — Smoothly attach displays above players or mobs
+- **Per-Player Visibility** — Show or hide displays for individual players
+- **Display Groups** — Manage multiple displays as a single unit (move, remove together)
+- **Leaderboards** — Auto-updating ranked displays with dynamic data
+- **Popup System** — Rising + fading text for damage numbers, XP notifications, etc.
+- **Persistence** — Save displays to YAML, survive server restarts
+- **PlaceholderAPI** — Optional integration for dynamic placeholder text
+- **Zero Dependencies** — Only requires Paper API, nothing else
 
 ## Quick Start
 
