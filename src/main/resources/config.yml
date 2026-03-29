@@ -1,0 +1,18 @@
+# DisplayAPI Configuration
+
+# Default view range for displays (multiplier, 1.0 = 64 blocks)
+default-view-range: 1.0
+
+# Default billboard mode: CENTER, VERTICAL, HORIZONTAL, FIXED
+default-billboard: CENTER
+
+# Popup settings
+popup:
+  rise-speed: 0.05
+  default-duration: 20
+
+# Persistence auto-save interval (ticks, 6000 = 5 minutes)
+auto-save-interval: 6000
+
+# Maximum displays per chunk (0 = unlimited)
+max-per-chunk: 0

@@ -1,0 +1,21 @@
+name: DisplayAPI
+version: ${project.version}
+main: com.wjddusrb03.displayapi.DisplayAPIPlugin
+api-version: '1.21'
+description: Lightweight Display Entity API for Paper plugins
+author: wjddusrb03
+
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  displayapi:
+    description: DisplayAPI admin commands
+    aliases: [dapi]
+    usage: /displayapi <subcommand>
+    permission: displayapi.admin
+
+permissions:
+  displayapi.admin:
+    description: DisplayAPI admin permission
+    default: op
