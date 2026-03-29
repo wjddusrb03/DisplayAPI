@@ -209,10 +209,17 @@ Component comp = PlaceholderUtil.parse(player, component);
 
 | Command | Description |
 |---------|-------------|
-| `/dapi test <type>` | Spawn test display (14 types) |
-| `/dapi list` | List active displays |
+| `/dapi create text <text> [id:name]` | Create text display (&color codes supported) |
+| `/dapi create block <block> [id]` | Create block display |
+| `/dapi create item <item> [id]` | Create item display |
+| `/dapi edit <id> <property> <value>` | Edit display (text, block, item, scale, billboard, glow) |
+| `/dapi move <id>` | Teleport display to your location |
+| `/dapi animate <id> <type>` | Apply animation (pulse, spin, bounce, float, shake, fadein, fadeout, growin) |
+| `/dapi popup <text>` | Create a popup text |
+| `/dapi near [radius]` | List nearby displays |
 | `/dapi remove <id>` | Remove by ID |
 | `/dapi removeall` | Remove all displays |
+| `/dapi list` | List active displays |
 | `/dapi save` | Save persistent displays |
 | `/dapi reload` | Reload config |
 | `/dapi info` | Plugin info |

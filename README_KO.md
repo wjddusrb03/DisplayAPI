@@ -211,10 +211,17 @@ Component comp = PlaceholderUtil.parse(player, component);
 
 | 명령어 | 설명 |
 |--------|------|
-| `/dapi test <유형>` | 테스트 디스플레이 생성 (14종) |
-| `/dapi list` | 활성 디스플레이 목록 |
+| `/dapi create text <텍스트> [id:이름]` | 텍스트 디스플레이 생성 (&색코드 지원) |
+| `/dapi create block <블록> [id]` | 블록 디스플레이 생성 |
+| `/dapi create item <아이템> [id]` | 아이템 디스플레이 생성 |
+| `/dapi edit <id> <속성> <값>` | 디스플레이 수정 (text, block, item, scale, billboard, glow) |
+| `/dapi move <id>` | 디스플레이를 현재 위치로 이동 |
+| `/dapi animate <id> <종류>` | 애니메이션 적용 (pulse, spin, bounce, float, shake, fadein, fadeout, growin) |
+| `/dapi popup <텍스트>` | 팝업 텍스트 생성 |
+| `/dapi near [반경]` | 근처 디스플레이 검색 |
 | `/dapi remove <id>` | ID로 제거 |
 | `/dapi removeall` | 모든 디스플레이 제거 |
+| `/dapi list` | 활성 디스플레이 목록 |
 | `/dapi save` | 영속 디스플레이 저장 |
 | `/dapi reload` | 설정 재로드 |
 | `/dapi info` | 플러그인 정보 |
