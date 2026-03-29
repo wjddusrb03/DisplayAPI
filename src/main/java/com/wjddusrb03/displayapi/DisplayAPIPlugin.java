@@ -55,6 +55,9 @@ public class DisplayAPIPlugin extends JavaPlugin {
         }.runTaskTimer(this, saveInterval, saveInterval);
 
         getLogger().info("DisplayAPI v" + getDescription().getVersion() + " enabled.");
+        if (com.wjddusrb03.displayapi.util.PlaceholderUtil.isAvailable()) {
+            getLogger().info("PlaceholderAPI detected - placeholder support enabled.");
+        }
     }
 
     @Override
